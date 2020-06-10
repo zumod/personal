@@ -420,6 +420,7 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
+  box-shadow: none;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
   color: #18d26e;
@@ -428,6 +429,7 @@ section .container {
 
 .counts .count-box span {
   font-size: 36px;
+  text-shadow: none;
   display: block;
   font-weight: 600;
   color: #fff;
@@ -675,6 +677,7 @@ section .container {
 
 .services .icon-box .icon i {
   color: #fff;
+  text-shadow: none;
   font-size: 28px;
 }
 
