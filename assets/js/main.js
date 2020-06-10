@@ -160,19 +160,19 @@
 
   /** Scroll to the top when navbar clicked */
   
-  $('.about').click(function(e){
+  $('.about-scroll').click(function(e){
     $(document).scrollTop(0)
   });
-  $('.resume').click(function(e){
+  $('.resume-scroll').click(function(e){
     $(document).scrollTop(0)
   });
-  $('.services').click(function(e){
+  $('.services-scroll').click(function(e){
     $(document).scrollTop(0)
   });
-  $('.portfolio').click(function(e){
+  $('.portfolio-scroll').click(function(e){
     $(document).scrollTop(0)
   });
-  $('.contact').click(function(e){
+  $('.contact-scroll').click(function(e){
     $(document).scrollTop(0)
   });
 
