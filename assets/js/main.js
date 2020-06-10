@@ -1,9 +1,9 @@
 /**
-* Template Name: Personal - v2.2.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+* Author: Sumod Sivadas
+
+**/
+
 !(function($) {
   "use strict";
 
@@ -158,4 +158,23 @@
     items: 1
   });
 
+  /** Scroll to the top when navbar clicked */
+  
+  $('.about').click(function(e){
+    $(document).scrollTop(0)
+  });
+  $('.resume').click(function(e){
+    $(document).scrollTop(0)
+  });
+  $('.services').click(function(e){
+    $(document).scrollTop(0)
+  });
+  $('.portfolio').click(function(e){
+    $(document).scrollTop(0)
+  });
+  $('.contact').click(function(e){
+    $(document).scrollTop(0)
+  });
+
+      
 })(jQuery);
