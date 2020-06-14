@@ -539,7 +539,7 @@ section .container {
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
