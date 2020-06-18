@@ -6,7 +6,6 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
-  text-shadow: 2px 2px 15px #000000;
   position: relative;
   background: transparent;
 }
@@ -378,6 +377,7 @@ section .container {
   font-weight: 700;
   font-size: 26px;
   color: #18d26e;
+  text-shadow: none;
 }
 
 .about-me .content ul {
@@ -387,16 +387,19 @@ section .container {
 
 .about-me .content ul li {
   padding-bottom: 10px;
+  text-shadow: none;
 }
 
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #18d26e;
+  text-shadow: none;
 }
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+  text-shadow: none;
 }
 
 /*--------------------------------------------------------------
@@ -589,7 +592,6 @@ section .container {
     margin: 30px 10px;
   }
 }
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
